@@ -1,0 +1,158 @@
+.fundo{
+    height: 100vh;
+    background-image: url(https://wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-6.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    background-color: rgb(14, 7, 41);
+    height: 11.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px ;
+    padding-right: 20px;
+          
+}
+
+.resist{
+    max-width: 100px;
+}
+
+.menu-lista{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Anta", sans-serif;
+    list-style: none;
+    padding-right: 50px;
+} 
+
+
+.menu-lista-item{
+    color: rgb(112, 3, 3);
+    text-decoration: none;
+}
+
+.quadrado{
+    background-color: rgba(48, 7, 7, 0.822);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.titulo{
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.texto{
+    color: aliceblue;
+    font-size: x-large;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 40px;
+}
+
+.button{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgba(69, 8, 95, 0.87);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 300;
+    box-shadow: 10px;
+
+}
+
+.button:hover{
+    background-color: rgba(120, 36, 156, 0.87);
+    cursor: pointer; 
+    padding: 20px;
+    transition-duration: 0,5s;  
+}
+
+.categoria{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(35, 25, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle{
+    font-family: "Anta", sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 40vh;
+    align-content: center;
+    border-color: rgba(255, 255, 255, 0.582);
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+
+}
+
+#mid{
+    border-left: solid 3px;
+    border-right: solid 3px;
+    width: 34%;
+    height: 100%;
+    border-color: white;
+    /* row-gap: 10px; */
+    
+}
+
+.force{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    color: white;
+}
+
+.text{
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
